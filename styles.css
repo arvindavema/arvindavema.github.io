@@ -51,6 +51,26 @@ nav {
     color: #fff;
 }
 
+/* "Back to Top" Button */
+#backToTop {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#backToTop:hover {
+    background-color: #555;
+}
+
 /* Sections */
 section {
     padding: 2em;
@@ -64,6 +84,7 @@ section {
 .project img {
     max-width: 100%;
     height: auto;
+    color: black;
 }
 
 /* Footer */

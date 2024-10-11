@@ -15,15 +15,24 @@
     <!-- Navbar Section -->
     <nav>
         <ul class="navbar">
-            <li><a href="#web-projects">Web Applications</a></li>
+            <li><a href="#full-stack-development">Web Applications</a></li>
             <li><a href="#mobile-projects">Mobile Applications</a></li>
             <li><a href="#data-science-projects">Data Science</a></li>
             <li><a href="#gen-ai-projects">Generative AI</a></li>
         </ul>
     </nav>
-
+        <!-- Generative AI Projects Section -->
+        <section id="gen-ai-projects">
+            <h2>Generative AI Projects</h2>
+            <div class="project">
+                <h3>Project 4: Generative AI Project Name</h3>
+                <img src="images/genai1.png" alt="Generative AI Project Screenshot">
+                <p>A short description of the generative AI project. [<a href="https://github.com/yourusername/genai-repo">GitHub Repo</a>]</p>
+            </div>
+            <!-- Add more generative AI projects -->
+        </section>
     <!-- Web Applications Section -->
-    <section id="web-projects">
+    <section id="full-stack-development">
         <h2>Web Applications</h2>
         <div class="project">
             <h3>Project 1: Web App Name</h3>
@@ -37,10 +46,84 @@
     <section id="mobile-projects">
         <h2>Mobile Applications</h2>
         <div class="project">
-            <h3>Project 2: Mobile App Name</h3>
-            <img src="images/mobileapp1.png" alt="Mobile App Screenshot">
-            <p>A short description of the mobile app. [<a href="https://github.com/yourusername/mobileapp-repo">GitHub Repo</a>]</p>
-        </div>
+  <h3>Computer Science Advising App</h3>
+    <p>This app is supposed to help CS undergrad students (or users interested in the minor/major) have faster access to the information on the UMD CS Advising webpages that are frequently visited, such as the list of CS degree requirements, or upcoming advising events. The app also provides handy tools such as a GPA calculator, a course request form, and more.</p>
+
+    <h3>Part 1: Home Tab</h3>
+    
+    <h4>Nav</h4>
+    <p>I organized the many different parts of the app by implementing a drawer navigation for the top layer, and tabbed navigation for each subpart of the app. The screens are organized by their intended tasks.</p>
+
+    <h4>Home Tab and Drawer</h4>
+    <p>The App is made of four parts that can be accessed via the drawer navigation that is present throughout the whole app. The five items in the drawer all take the user to a different part of the app.</p>
+
+    <h5>Dashboard</h5>
+    <p>The following is an image of a user's Dashboard which is located inside the drawer tab named Home. It provides shortcuts to important things such as their 4-year plans, or their current class schedule. Tabs are also visible here and they were used to navigate to relevant tab while inside a drawer tab. The tabs are swipeable and highlight the tab text when the user is on a given page.</p>
+    <p float="left">
+        <img src="images/navDash.png" width="150">
+        <img src="images/navHomeTab.png" width="150">
+        <img src="images/home2.png" width="150">
+    </p>
+
+    <h5>Calendar</h5>
+    <p>This coming advising events and any appointments with advising the user may have. Users can also select a day and make an appointment based on availability.</p>
+    <p float="left">
+        <img src="images/calendar.png" alt="cal" width="150">
+    </p>
+
+    <h5>Grades</h5>
+    <p>Here is where the student can calculate their Semester and Year GPA based on the courses they add on their dashboard. Users can also choose to calculate hypothetical GPA and provide random courses.</p>
+    <p float="left">
+        <img src="images/grades.png" width=150>
+    </p>
+
+    <h5>Inbox</h5>
+    <p>Users communicate directly with the undergrad CS department instead of the traditional email configuration. This was made to increase efficiency with the advising process so they can understand themselves. The advisor can also choose to send important announcements.</p>
+    <p float="left">
+        <img src="images/inbox.png" alt="Inbox" width="150">
+    </p>
+
+    <h3>Part 2: Advising Resources</h3>
+    <p>Same navigation as part 1, but on each screen we give the user different types of information (department overview, course list, degree requirements are all in different swipeable tabs). This part of the app is all about referencing information.</p>
+    
+    <h5>Department Overview</h5>
+    <p float="left">
+        <img src="images/departmentOverview.png" alt="Department Overview" width="150">
+    </p>
+
+    <h5>Degree</h5>
+    <p float="left">
+        <img src="images/degree.png" alt="Degree" width="150">
+        <img src="images/degree2.png" alt="Degree 2" width="150">  
+        <img src="images/degree3.png" alt="Degree 3" width="150">
+    </p>
+
+    <h5>Transfer Student Info</h5>
+    <p>
+        <img src="images/transferring.png" alt="Transfer Info" width="150">
+    </p>
+
+    <h5>Contacting Advisors (unfinished)</h5>
+    <p>
+        <img src="images/contacts.png" alt="Contacts" width="150">
+    </p>
+
+    <h3>Part 3: CMSC 300 level - 400 level Course Permission Form</h3>
+    <p>All students that want to take a 3XX or 4XX CMSC course must obtain permission from their advisors and this is currently done via email communication and Google forms. This feature allows students to fill out the form in the app with access to the course information that they find in Testudo under the Course Information tab.</p>
+
+    <h5>The following three images are just one screen, the form is in a scrollview.</h5>
+    <p>
+        <img src="images/form1.png" alt="Form 1" width="150">
+        <img src="images/form2.png" alt="Form 2" width="150">  
+        <img src="images/form3.png" alt="Form 3" width="150">
+    </p>
+
+    <h3>Part 4. Course Information (unfinished)</h3>
+    <p>Shows all courses being offered and their data.</p>
+    <p>
+        <img src="images/courselist.png" alt="Course List" width="150">
+    </p>
+    </div>
         <!-- Add more mobile projects similarly -->
     </section>
 
@@ -55,16 +138,7 @@
         <!-- Add more data science projects -->
     </section>
 
-    <!-- Generative AI Projects Section -->
-    <section id="gen-ai-projects">
-        <h2>Generative AI Projects</h2>
-        <div class="project">
-            <h3>Project 4: Generative AI Project Name</h3>
-            <img src="images/genai1.png" alt="Generative AI Project Screenshot">
-            <p>A short description of the generative AI project. [<a href="https://github.com/yourusername/genai-repo">GitHub Repo</a>]</p>
-        </div>
-        <!-- Add more generative AI projects -->
-    </section>
+
 
     <footer>
         <p>Find me on GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
