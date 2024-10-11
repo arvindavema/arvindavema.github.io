@@ -16,6 +16,42 @@ h1 {
     margin: 0;
 }
 
+/* Navbar styles */
+nav {
+    background-color: #444;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Sections */
 section {
     padding: 2em;
     margin: 2em 0;
@@ -30,6 +66,7 @@ section {
     height: auto;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 1em;
